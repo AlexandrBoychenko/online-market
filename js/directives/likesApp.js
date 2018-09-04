@@ -1,4 +1,5 @@
-app.directive('likesApp', function() {
+app.directive('likesApp',
+    function() {
     return {
         restrict: 'E',
         scope: {

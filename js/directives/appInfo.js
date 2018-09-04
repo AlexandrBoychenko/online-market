@@ -4,6 +4,9 @@ app.directive('appInfo', function() {
         scope: {
             info: '='
         },
-        templateUrl: 'js/directives/appInfo.html'
+        templateUrl: 'js/directives/appInfo.html',
+        link: function(scope, element, attr) {
+            
+        }
     };
 });

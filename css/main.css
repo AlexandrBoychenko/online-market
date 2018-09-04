@@ -75,3 +75,7 @@ body {
     background-color: #ababab ;
     color: #3f3f3f ;
 }
+
+.red-element {
+    background-color: red;
+}

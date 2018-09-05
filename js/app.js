@@ -1,6 +1,6 @@
-var app = angular.module('AppMarketApp', []);
+var app = angular.module('AppMarketApp', ['ngRoute']);
 
-app.config('routeUrl', ["$routeProvider", function($routeProvider) {
+app.config(function($routeProvider) {
     $routeProvider
         .when('/', {
             controller: 'DocController',
@@ -13,4 +13,4 @@ app.config('routeUrl', ["$routeProvider", function($routeProvider) {
         .otherwise({
             redirectTo: '/'
         })
-}]);
+});

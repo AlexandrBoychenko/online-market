@@ -1,4 +1,4 @@
-app.controller("DocController", ["$scope", "$routeParams", "photos", function($scope, $routeParams) {
+app.controller("DocController", ["$scope", "photos", function($scope, photos) {
     photos.success(function(data) {
             $scope.homeData = data;
         })

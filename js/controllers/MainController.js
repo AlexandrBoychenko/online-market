@@ -34,6 +34,8 @@ app.controller('MainController', ['$scope', 'wikipedia', function($scope, wikipe
         }
     ];
 
+    this.orderProp = 'price';
+
     wikipedia.success(function(data) {
         $scope.wikiPic = data.days[0].icon;
     })

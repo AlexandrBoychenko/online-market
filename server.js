@@ -1,6 +1,6 @@
 const http                          = require('http');
 const staticServer                  = require('node-static');
-const port                          = 3000;
+const port                          = 8000;
 
 
 const file = new staticServer.Server('', {
